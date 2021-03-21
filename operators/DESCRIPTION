@@ -1,0 +1,17 @@
+Package: operators
+Title: Negative input operator handler
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Yingjin",
+           family = "Zhang",
+           role = c("aut", "cre"),
+           email = "yiz181@pitt.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID")) 
+Description: This package is used to handle invalid input value to operator `sqrt` and `log`. It will return error condition object with `invalid_input` subclass if the input value is invalid; and the result otherwise.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    rlang
